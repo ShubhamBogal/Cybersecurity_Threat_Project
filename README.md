@@ -13,7 +13,7 @@ The objective of this project is to transform raw incident-level data into a mea
 
 ## 🖼️ Dashboard Preview
 
-![Dashboard Preview](Tableau%20Cyber%20Threats%20Dashboard/Screenshots/Dashboard.png)
+![Dashboard Preview](Global%20Cybersecurity%20Project/Dashboard%20and%20Charts/Dashboard.png)
 
 ---
 
@@ -42,18 +42,17 @@ To build a dynamic Tableau dashboard that provides insights into:
 
 ## 🧩 Project Workflow
 
-### 1. Data Collection & Cleaning
-- Combined data from multiple cybersecurity sources (reports, monitoring tools, threat intelligence)
+### 1. Data Cleaning
 - Fields included:
   - `Country`, `Year`, `Attack Type`, `Target Industry`
   - `Financial Loss (Million $)`, `Users Affected`, `Resolution Time (hrs)`, etc.
-- Cleaned inconsistent records, handled nulls, and standardized naming conventions
+- Tableau Data Interpreter used for Data Cleaning
 
 ### 2. Dashboard Components
 Built the following visuals in Tableau:
 - **Global Threat Map**: Choropleth map showing incidents by country
 - **Threat Evolution Over Time**: Stacked area chart showing trends for attack types like Malware, Phishing, Ransomware, etc.
-- **Incidents Over the Years**: Line graph showing total threats from 2014–2024
+- **Incidents Over the Years**: Line graph showing total threats from 2015–2024
 - **Top Countries in 2024**: Bar chart highlighting leading countries by incident count
 - **Incidents by Industry**: Pie chart showing distribution across sectors
 - **Economic Impact**: Bubble chart visualizing financial losses per country
@@ -71,7 +70,7 @@ Built the following visuals in Tableau:
 |----------------------------|--------------------------------------------------------------------------|
 | **Global Threat Map**      | Color-coded view of cyber incidents per country                          |
 | **Top Countries in 2024**  | Compare nation-wise incidents in a specific year                         |
-| **Threat Evolution**       | Visualize trends in Malware, Ransomware, Phishing, etc. (2014–2024)     |
+| **Threat Evolution**       | Visualize trends in Malware, Ransomware, Phishing, etc. (2015–2024)     |
 | **Yearly Trends**          | Line graph showing rise in incidents and pandemic-related spikes         |
 | **Industry Breakdown**     | Pie chart showing most targeted sectors (IT, Banking, Healthcare, etc.) |
 | **Economic Loss Chart**    | Bubble chart comparing financial impact across countries                |
@@ -80,22 +79,17 @@ Built the following visuals in Tableau:
 
 ## 📂 Folder Structure
 
-Tableau Cyber Threats Dashboard/
+Global Cybersecurity Project/
 ├── Data/
-│ └── Global_Cybersecurity_Threats_2015_2024.csv
-├── Dashboard/
-│ └── Cyber_Threat_Dashboard.twb
-├── Screenshots/
-│ └── Dashboard.png
+├── Dashboard and Charts/
 ├── Documentation/
-│ └── Readme.md
 
 
 ---
 
 ## ▶️ How to Use
 
-1. Download or open the Tableau `.twb` file from the `Dashboard/` folder  
+1. Download or open the Tableau `Cybersecurity Project.twb` file from the `Data/` folder  
 2. Use Tableau Desktop or Tableau Public to view  
 3. Click on any map region, industry slice, or attack type to filter other charts  
 4. Use legends and filters to explore threats over time and across regions  
